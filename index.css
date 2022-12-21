@@ -21,7 +21,7 @@
         .navigation>div>div>button{
             background-color: #E8EFF2;
             border: none;
-            border-radius: 1rem;
+            border-radius: 0.5rem;
             height: 4rem;
             width: 100%;
             color: #162542;
@@ -60,11 +60,13 @@
             font-weight: bold;
         }
         .typemaster-btn>button{
-            border: none;
-            border-radius: 1rem;
             background-color: #F16718;
-            width: 50%;
+            border: none;
+            border-radius: 0.5rem;
+            height: 4rem;
             color: #ffff;
+            font-size: 15px;
+            font-weight: bolder;         
         }
         .typemaster-btn{
             display: flex;
@@ -150,6 +152,7 @@
         p{
             font-size: 16px;
             color: #7B8BAD;
+            padding-top: 2%;
         }
 
 
@@ -157,6 +160,9 @@
             .first-content{
                 flex-direction: row;
                 gap: 0;
+            }
+            .typemaster{
+                width: 45%;
             }
             .keyboard>img{
                 height: 100%;
@@ -166,12 +172,18 @@
                 align-self: stretch;
                 padding-top: 5%;
             }
+            .phone-and-keyboard{
+                margin-left: 5%;
+                border-radius: 1rem;
+                height: fit-content;
+            }
             .phone-and-keyboard>img{
                 src: url("assets/tablet/image-phone-and-keyboard.jpg");
             }
             .glass-and-keyboard>img{
                 src: url("/assets/tablet/image-glass-and-keyboard.jpg");
             }
+            
             .mechanical-keyboard>*{
                 padding: 5%;
                 align-self: center;
@@ -180,6 +192,7 @@
                 display: flex;
                 text-align: left;
             }
+            
             .third-content{
                 display: flex;
                 flex-direction: row;
@@ -192,10 +205,10 @@
                 width: 40%;
             }
             h1{
-                font-size: 56px;
+                font-size: 46px;
             }
             p{
-                font-size: 20px;
+                font-size: 16px;
             }
         }
 
@@ -236,7 +249,7 @@
                 width: 80%;
 
             }
-            .nav>div>button:active{
+            .nav>div>button:hover{
                 background-color: #162542;
                 color: #ffff;
             }
@@ -268,13 +281,13 @@
                 padding-top: 0%;
                 padding-bottom: 0%;
             }
-            .typemaster-btn>button:active{
+            .typemaster-btn>button:hover{
                 background-color: #FF9B62;
             }
             .typemaster-btn>button{
                 align-self: center;
                 height: 4rem;
-                width: 40%;
+                width: 50%;
             }
             .second-content{
                 gap: 1rem;
@@ -312,8 +325,10 @@
             }
             .third-content>div{
                 padding-left: 0;
+                padding-right: 2%;
             }
             .third-content{
+                gap: 0;
                 padding-top: 5%;
                 flex-wrap: nowrap;
                 width: 80%;
@@ -323,9 +338,24 @@
                 font-size: 36px;
             }
             h3{
-                font-size: 28px;
+                font-size: 15px;
+                font-weight: 900;
+            }
+            p{
+                font-size: 12px;
             }
         }
+        @media only screen and (min-width:1200px) {
+            h2{
+                font-size: 36px;
+            }
+            h3{
+                font-size: 20px;
+            }
+            p{
+                font-size: 16px;
+            }
+          }
         
 
             
