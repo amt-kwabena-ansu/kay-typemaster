@@ -50,8 +50,7 @@
             src: url("assets/mobile/image-keyboard.jpg");
             border-top-left-radius: 1rem;
             border-bottom-left-radius: 1rem;
-            border-top-right-radius: 0;
-            border-bottom-right-radius: 0;
+           
             width: 100%;
         }
         .typemaster{
